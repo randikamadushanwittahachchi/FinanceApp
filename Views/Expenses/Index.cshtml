@@ -1,0 +1,27 @@
+﻿@model IEnumerable<FinanceApp.Models.Expense>
+
+<div class="container">
+    <h2 class="text-center mb-4 text-secondary">My Expenses</h2>
+    <table class="table table-bordered table-hover">
+        <thead class="table-light text-center">
+            <tr >
+                <th class="text-muted">Date</th>
+                <th class="text-muted">Amount</th>
+                <th class="text-muted">Category</th>
+                <th class="text-muted">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var iteam in Model)
+            {
+                <tr>
+                    <td>@iteam.Date</td>
+                    <td>@iteam.Amount</td>
+                    <td>@iteam.Category</td>
+                    <td>@iteam.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

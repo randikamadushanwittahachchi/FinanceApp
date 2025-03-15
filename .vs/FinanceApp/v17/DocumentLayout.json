@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Randika\\Project_App\\FinanceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\data\\financeappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:data\\financeappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\migrations\\20250315182330_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:migrations\\20250315182330_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:views\\expenses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\migrations\\financeappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:migrations\\financeappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|solutionrelative:views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D1FF103-4668-4174-B31B-05299BA676A9}|FinanceApp.csproj|c:\\randika\\project_app\\financeapp\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FinanceAppContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Migrations\\FinanceAppContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\FinanceAppContextModelSnapshot.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Migrations\\FinanceAppContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\FinanceAppContextModelSnapshot.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:23:53.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250315182330_initial migration.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Migrations\\20250315182330_initial migration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250315182330_initial migration.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Migrations\\20250315182330_initial migration.cs",
-              "RelativeToolTip": "Migrations\\20250315182330_initial migration.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:23:30.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T17:58:35.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-15T17:55:10.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FinanceAppContext.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Data\\FinanceAppContext.cs",
-              "RelativeDocumentMoniker": "Data\\FinanceAppContext.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Data\\FinanceAppContext.cs",
-              "RelativeToolTip": "Data\\FinanceAppContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T16:01:20.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Expense.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "Models\\Expense.cs",
               "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Models\\Expense.cs",
               "RelativeToolTip": "Models\\Expense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T15:42:23.859Z",
+              "WhenOpened": "2025-03-15T22:39:00.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T22:22:23.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Views\\Expenses\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expenses\\Index.cshtml",
+              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Views\\Expenses\\Index.cshtml",
+              "RelativeToolTip": "Views\\Expenses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T22:17:39.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\FinanceApp\\Views\\Expenses\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expenses\\Create.cshtml",
+              "ToolTip": "C:\\Randika\\Project_App\\FinanceApp\\Views\\Expenses\\Create.cshtml",
+              "RelativeToolTip": "Views\\Expenses\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T22:14:39.578Z",
               "EditorCaption": ""
             }
           ]
