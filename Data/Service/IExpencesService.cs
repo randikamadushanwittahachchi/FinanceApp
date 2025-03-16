@@ -1,9 +1,10 @@
 ﻿using FinanceApp.Models;
+using FinanceApp.ViewModels;
 
 namespace FinanceApp.Data.Service;
 
 public interface IExpencesService
 {
-    Task<IEnumerable<Expense>> GetAll();
-    Task Add(Expense expense);
+    Task<IndexViewModel> GetAll();
+    Task Add(ExpensesViewModel expense);
 }

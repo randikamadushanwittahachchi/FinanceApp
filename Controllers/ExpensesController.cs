@@ -1,6 +1,7 @@
 ﻿using FinanceApp.Data;
 using FinanceApp.Data.Service;
 using FinanceApp.Models;
+using FinanceApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,19 +15,20 @@ namespace FinanceApp.Controllers
         {
             _expencesService = expencesService;
         }
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var expenses = await _expencesService.GetAll();
-            return View(expenses);
+            var index = await _expencesService.GetAll();
+            return View(index);
         }
-
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Expense expense)
+        public async Task<IActionResult> Create(ExpensesViewModel expense)
         {
             if (ModelState.IsValid)
             {
@@ -35,5 +37,6 @@ namespace FinanceApp.Controllers
             }
             return View(expense);
         }
+
     }
 }

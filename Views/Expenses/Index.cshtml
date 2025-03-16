@@ -1,4 +1,4 @@
-﻿@model IEnumerable<FinanceApp.Models.Expense>
+﻿@model FinanceApp.ViewModels.IndexViewModel
 
 <div class="container">
     <h2 class="text-center mb-4 text-secondary">My Expenses</h2>
@@ -12,10 +12,10 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(var iteam in Model)
+            @foreach(var iteam in Model.Expenses)
             {
                 <tr>
-                    <td>@iteam.Date</td>
+                    <td>@iteam.FormattedDate</td>
                     <td>@iteam.Amount</td>
                     <td>@iteam.Category</td>
                     <td>@iteam.Description</td>
@@ -25,3 +25,33 @@
     </table>
 
 </div>
+
+<h2>Expenses Over View</h2>
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2, 3],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+</script>
